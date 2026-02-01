@@ -93,11 +93,8 @@ Las operaciones de escritura están restringidas mediante lógica basada en grup
 ### API VIEW
 Se implementa un endpoint adicional utilizando @api_view, demostrando el manejo manual de métodos HTTP (GET, POST) y control de permisos.
 
-Endpoint funcional:
-´´´
-/api/entrenamientos-func/
+Endpoint funcional: /api/entrenamientos-func/
 
-´´´
 ### Autenticación
 La autenticación se maneja mediante sesiones, utilizando Django REST Framework.
 Login para la API:
