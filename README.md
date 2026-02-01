@@ -59,7 +59,6 @@ La migración se realizó mediante los comandos estándar de Django:
 - python manage.py migrate
 
 Además, se cambió la configuración de la database en settings a:
-´´´
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
@@ -74,7 +73,6 @@ DATABASES = {
     }
 }
 
-´´´
 Esta configuración permite escalabilidad y cumple con los requisitos de persistencia del sistema.
 
 ### Usuarios y Grupos
