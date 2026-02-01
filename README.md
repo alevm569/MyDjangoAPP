@@ -59,6 +59,7 @@ La migración se realizó mediante los comandos estándar de Django:
 - python manage.py migrate
 
 Además, se cambió la configuración de la database en settings a:
+```python
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
