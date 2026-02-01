@@ -73,6 +73,7 @@ DATABASES = {
         }
     }
 }
+```
 
 Esta configuración permite escalabilidad y cumple con los requisitos de persistencia del sistema.
 
