@@ -23,7 +23,6 @@ MyDjangoAPP/
 ├── entrenamientos/           # App para gestión de entrenamientos
 └── manage.py
 │── requirements.txt
-│── .env
 
 ```
 ## Instalación de Dependencias
