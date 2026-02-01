@@ -1,0 +1,145 @@
+absl-py==2.1.0
+annotated-types==0.7.0
+anyio==4.9.0
+argon2-cffi @ file:///opt/conda/conda-bld/argon2-cffi_1645000214183/work
+argon2-cffi-bindings @ file:///C:/ci/argon2-cffi-bindings_1644551690056/work
+asgiref==3.11.0
+asttokens==2.4.1
+astunparse==1.6.3
+attrs @ file:///opt/conda/conda-bld/attrs_1642510447205/work
+azure-quantum @ file:///C:/Users/ContainerAdministrator/conda-bld/qsharp_1658559201813/work/src/drops/wheels/azure_quantum-0.25.222597-py3-none-any.whl
+backcall @ file:///home/ktietz/src/ci/backcall_1611930011877/work
+backports.tarfile==1.2.0
+beautifulsoup4 @ file:///C:/ci/beautifulsoup4_1650293025093/work
+bleach @ file:///opt/conda/conda-bld/bleach_1641577558959/work
+blinker==1.9.0
+certifi @ file:///C:/Windows/TEMP/abs_e9b7158a-aa56-4a5b-87b6-c00d295b01fanefpc8_o/croots/recipe/certifi_1655968940823/work/certifi
+cffi @ file:///C:/Windows/Temp/abs_6808y9x40v/croots/recipe/cffi_1659598653989/work
+charset-normalizer==3.4.0
+click==8.1.8
+colorama==0.4.6
+comm==0.2.2
+debugpy==1.8.1
+decorator==5.1.1
+defusedxml @ file:///tmp/build/80754af9/defusedxml_1615228127516/work
+Django==4.2.27
+djangorestframework==3.16.1
+entrypoints @ file:///C:/ci/entrypoints_1649926621128/work
+exceptiongroup==1.2.1
+executing==2.0.1
+fastapi==0.116.0
+fastjsonschema @ file:///C:/Users/BUILDE~1/AppData/Local/Temp/abs_ebruxzvd08/croots/recipe/python-fastjsonschema_1661376484940/work
+filelock==3.17.0
+Flask==3.1.0
+flask-cors==5.0.1
+flask-ngrok==0.0.25
+flatbuffers==24.3.25
+fsspec==2025.3.0
+gast==0.6.0
+google-pasta==0.2.0
+grpcio==1.68.1
+h11==0.16.0
+h5py==3.12.1
+httptools==0.6.4
+huggingface-hub==0.29.2
+idna==3.10
+importlib_metadata==7.1.0
+ipykernel==6.29.4
+ipython==8.18.1
+ipython-genutils @ file:///tmp/build/80754af9/ipython_genutils_1606773439826/work
+itsdangerous==2.2.0
+jedi==0.19.1
+Jinja2==3.1.6
+jsonschema @ file:///C:/ci/jsonschema_1650008058050/work
+jupyter_client==8.6.2
+jupyter_core==5.7.2
+jupyterlab-pygments @ file:///tmp/build/80754af9/jupyterlab_pygments_1601490720602/work
+keras==3.7.0
+libclang==18.1.1
+Markdown==3.7
+markdown-it-py==3.0.0
+MarkupSafe @ file:///C:/ci/markupsafe_1654508077284/work
+matplotlib-inline==0.1.7
+mdurl==0.1.2
+mistune @ file:///C:/ci/mistune_1607359457024/work
+ml-dtypes==0.4.1
+mpmath==1.3.0
+mysqlclient==2.2.7
+namex==0.0.8
+nbclient @ file:///C:/ci/nbclient_1650290387259/work
+nbconvert @ file:///C:/ci/nbconvert_1649741016669/work
+nbformat @ file:///C:/ci/nbformat_1649845125000/work
+nest-asyncio==1.6.0
+networkx==3.2.1
+notebook @ file:///C:/Windows/TEMP/abs_79abr1_60s/croots/recipe/notebook_1659083661851/work
+numpy==2.0.2
+opt_einsum==3.4.0
+optree==0.13.1
+packaging==24.0
+pandocfilters @ file:///opt/conda/conda-bld/pandocfilters_1643405455980/work
+parso==0.8.4
+pickleshare @ file:///tmp/build/80754af9/pickleshare_1606932040724/work
+platformdirs==4.2.2
+prometheus-client @ file:///C:/Windows/TEMP/abs_ab9nx8qb08/croots/recipe/prometheus_client_1659455104602/work
+prompt_toolkit==3.0.45
+protobuf==5.29.1
+psutil==5.9.8
+pure-eval==0.2.2
+pycparser @ file:///tmp/build/80754af9/pycparser_1636541352034/work
+pydantic==2.11.7
+pydantic_core==2.33.2
+Pygments==2.18.0
+PyMySQL==1.1.2
+pyparsing @ file:///C:/Users/BUILDE~1/AppData/Local/Temp/abs_7f_7lba6rl/croots/recipe/pyparsing_1661452540662/work
+pyrsistent @ file:///C:/ci/pyrsistent_1636093225342/work
+python-dateutil==2.9.0.post0
+python-dotenv==1.1.1
+pywin32==306
+pywinpty @ file:///C:/ci_310/pywinpty_1644230983541/work/target/wheels/pywinpty-2.0.2-cp39-none-win_amd64.whl
+PyYAML==6.0.2
+pyzmq==26.0.3
+qdk @ file:///C:/Users/ContainerAdministrator/conda-bld/qsharp_1658559201813/work/src/drops/wheels/qdk-0.25.222597-py3-none-any.whl
+qsharp @ file:///C:/Users/ContainerAdministrator/conda-bld/qsharp_1658559201813/work/src/drops/wheels/qsharp-0.25.222597-py3-none-any.whl
+qsharp-chemistry @ file:///C:/Users/ContainerAdministrator/conda-bld/qsharp_1658559201813/work/src/drops/wheels/qsharp_chemistry-0.25.222597-py3-none-any.whl
+qsharp-core @ file:///C:/Users/ContainerAdministrator/conda-bld/qsharp_1658559201813/work/src/drops/wheels/qsharp_core-0.25.222597-py3-none-any.whl
+regex==2024.11.6
+RepasoReleases @ https://github.com/alevm569/RepasoRelease/releases/download/v.0.1.0/RepasoReleases-0.1.0-py3-none-any.whl
+requests==2.32.3
+rich==13.9.4
+safetensors==0.5.3
+Send2Trash @ file:///tmp/build/80754af9/send2trash_1632406701022/work
+sentencepiece==0.2.0
+six==1.16.0
+sniffio==1.3.1
+soupsieve @ file:///tmp/build/80754af9/soupsieve_1636706018808/work
+sqlparse==0.5.4
+stack-data==0.6.3
+starlette==0.46.2
+sympy==1.13.1
+tensorboard==2.18.0
+tensorboard-data-server==0.7.2
+tensorflow==2.18.0
+tensorflow-io-gcs-filesystem==0.31.0
+tensorflow_intel==2.18.0
+termcolor==2.5.0
+terminado @ file:///C:/ci/terminado_1644322780199/work
+testpath @ file:///C:/Windows/TEMP/abs_23c7fa33-cbb9-46dc-b7c5-590c38e2de3d4bmbngal/croots/recipe/testpath_1655908553202/work
+tokenizers==0.21.0
+torch==2.6.0
+tornado==6.4
+tqdm==4.67.1
+traitlets==5.14.3
+transformers==4.49.0
+typing-inspection==0.4.1
+typing_extensions==4.14.1
+tzdata==2025.2
+urllib3==2.2.3
+uvicorn==0.35.0
+watchfiles==1.1.0
+wcwidth==0.2.13
+webencodings==0.5.1
+websockets==15.0.1
+Werkzeug==3.1.3
+wincertstore==0.2
+wrapt==1.17.0
+zipp==3.19.0

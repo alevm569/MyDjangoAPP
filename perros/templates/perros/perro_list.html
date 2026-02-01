@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Perros</title>
+</head>
+<body>
+    <h1>Lista de Perros</h1>
+
+    <ul>
+        {% for perro in perros %}
+            <li>{{ perro.nombre }} - {{ perro.raza }}</li>
+        {% empty %}
+            <li>No hay perros registrados</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
