@@ -47,6 +47,36 @@ Modelos implementados
 - duracion
 - observaciones
 
+#### Migración MYSQL
+### Configuración
+- Motor: MySQL
+- Base de datos: adiestramiento_db
+- Driver: mysqlclient
+
+La migración se realizó mediante los comandos estándar de Django:
+
+- python manage.py makemigrations
+- python manage.py migrate
+
+Además, se cambió la configuración de la database en settings a:
+´´´
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'adiestramiento_db',
+        'USER': '',
+        'PASSWORD': '',
+        'HOST': 'localhost',
+        'PORT': '3306',
+        'OPTIONS': {
+            'init_command': "SET sql_mode='STRICT_TRANS_TABLES'"
+        }
+    }
+}
+
+´´´
+Esta configuración permite escalabilidad y cumple con los requisitos de persistencia del sistema.
+
 ### Usuarios y Grupos
 Para validar el funcionamiento del sistema se crearon los siguientes usuarios:
 - admin1       | adiestra360
