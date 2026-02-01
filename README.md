@@ -50,12 +50,10 @@ Modelos implementados
 
 ### Usuarios y Grupos
 Para validar el funcionamiento del sistema se crearon los siguientes usuarios:
-´´´
-admin1       | adiestra360
-entrenador1  | adiestra360e
-guia1        | adiestra360g
+- admin1       | adiestra360
+- entrenador1  | adiestra360e
+- guia1        | adiestra360g
 
-´´´
 ## Vistas Web
 Se implementaron vistas genéricas basadas en clases (CBV) para los modelos Perro y Entrenamiento, utilizando:
 - ListView
@@ -97,11 +95,7 @@ Endpoint funcional: /api/entrenamientos-func/
 
 ### Autenticación
 La autenticación se maneja mediante sesiones, utilizando Django REST Framework.
-Login para la API:
-´´´
-/api-auth/login/
-
-´´´
+Login para la API: /api-auth/login/
 
 ### Permisos y control de acceso
 Aunque Django proporciona permisos automáticos (add, change, delete, view), el proyecto utiliza principalmente control de acceso basado en grupos, evaluado directamente en las vistas y endpoints de la API.
